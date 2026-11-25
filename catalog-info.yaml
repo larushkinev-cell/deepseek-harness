@@ -1,0 +1,16 @@
+# Сгенерировано scripts/build-backstage-catalog.py --write-catalog-info из фактов; руками не править.
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "deepseek-harness"
+  description: "English | [中文](README.zh.md)"
+  annotations:
+    github.com/project-slug: "larushkinev-cell/deepseek-harness"
+    backstage.io/techdocs-ref: "url:https://github.com/larushkinev-cell/deepseek-harness/tree/master"
+spec:
+  type: "service"
+  lifecycle: "production"
+  owner: "group:default/asguard"
+  system: "asguard"
